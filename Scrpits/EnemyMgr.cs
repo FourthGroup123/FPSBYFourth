@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyMgr : MonoBehaviour {
+public class EnemyMgr : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
+    public PlayerHealth _playerHealth;
+    public GameObject Enemy;
+
+	void Start ()
+    {
 	
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 	
 	}
 }
